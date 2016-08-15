@@ -4,7 +4,7 @@
 }
 
 div {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 a,
@@ -51,6 +51,7 @@ a:visited {
     margin-left: 10px;
     font-size: 12px;
     color: #999;
+    height: 60px;
 }
 
 #pager .header .hao123-col .weather .weahterinfo-temperature {
@@ -80,6 +81,7 @@ a:visited {
 #pager .header .hao123-col .calendar a {
     display: inline-block;
     font-size: 12px;
+    height: 60px;
 }
 
 #pager .header .hao123-col .hao123-star {
@@ -93,6 +95,7 @@ a:visited {
 #pager .header .hao123-col .hao123-star span {
     display: inline-block;
     font-size: 12px;
+    height: 60px;
 }
 
 #pager .header .hao123-links {
@@ -103,14 +106,17 @@ a:visited {
     float: left;
     margin-left: 20px;
     line-height: 60px;
+    height: 60px;
     color: #999;
     cursor: pointer;
 }
 
 #pager .header .hao123-links span {
-    display: inline-block;
+    display: block;
+    float: left;
     margin-left: 5px;
     font-size: 12px;
+    height: 60px;
 }
 
 #pager .header .head-joke {
@@ -124,14 +130,19 @@ a:visited {
 #pager .search-panel {
     width: 1190px;
     height: 60px;
-    margin: 0 auto;
+    margin: 10px 0 auto auto;
 }
 
-#pager .search-panel .search .baidu-logo {
+#pager .search-panel .baidu-logo {
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 40px;
     float: left;
 }
 
-.search .baidu-logo a {
+#pager .search-panel .baidu-logo a {
+    width: 120px;
+    height: 40px;
     background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/0W/zO/-A/q4/0Z/4/index_widthlg.png) -10px -212px no-repeat;
 }
 
