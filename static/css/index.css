@@ -4,15 +4,17 @@
 }
 
 div {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 a,
 a:hover,
+a:focus,
 a:visited {
     display: block;
     text-decoration: none;
     color: #999;
+    outline: 0;
 }
 
 #pager .header-shell {
@@ -123,6 +125,7 @@ a:visited {
     float: right;
     margin-left: 20px;
     line-height: 60px;
+    height: 60px;
     color: #999;
     cursor: pointer;
 }
@@ -130,13 +133,17 @@ a:visited {
 #pager .search-panel {
     width: 1190px;
     height: 60px;
-    margin: 10px 0 auto auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#pager .search-panel .search {
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
 }
 
 #pager .search-panel .baidu-logo {
-    border: 1px solid #ccc;
-    width: 120px;
-    height: 40px;
     float: left;
 }
 
@@ -144,6 +151,75 @@ a:visited {
     width: 120px;
     height: 40px;
     background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/0W/zO/-A/q4/0Z/4/index_widthlg.png) -10px -212px no-repeat;
+}
+
+#pager .search-panel .form-shell {
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+#pager .search-panel .form-shell .input-shell {
+    border: 1px solid #666;
+    border-right: 0;
+    width: 540px;
+    height: 46px;
+    line-height: 46px;
+    float: left;
+}
+
+#pager .search-panel .form-shell .input-shell input {
+    width: 480px;
+    height: 23px;
+    margin: 0 0 0 65px;
+    border: 0;
+    outline: 0;
+    font: 16px arial;
+}
+
+#pager .search-panel .form-shell .button-shell {
+    float: left;
+}
+
+#pager .search-panel .form-shell .button-shell input {
+    width: 120px;
+    height: 46px;
+    background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/0W/zO/-A/q4/0Z/4/index_widthlg.png) no-repeat -211px -180px;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#pager .search-panel .form-shell .menu {
+    position: absolute;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 10px;
+}
+
+#pager .search-panel .form-shell .menu span {
+    font: normal 12px/45px simsun;
+}
+
+#pager .search-panel .form-shell .menu-tab {
+    position: absolute;
+    border: 1px solid #666;
+    top: 45px;
+    background-color: #fff;
+    border-top: 0;
+    display:none;
+}
+
+#pager .search-panel .form-shell .menu-tab a {
+    padding-left: 10px;
+    font: normal 12px/24px simsun;
+    width: 45px;
+    height: 24px;
+}
+
+#pager .search-panel .form-shell .menu-tab a:hover{
+    background:#f1f1f1;
+    color:#999;
 }
 
 @font-face {
