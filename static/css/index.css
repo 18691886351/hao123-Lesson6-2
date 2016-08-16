@@ -7,6 +7,11 @@ div {
     box-sizing: border-box;
 }
 
+ul,
+li {
+    list-style: none;
+}
+
 a,
 a:hover,
 a:focus,
@@ -138,7 +143,7 @@ a:visited {
 }
 
 #pager .search-panel .search {
-    width: 800px;
+    width: 1000px;
     height: 60px;
     margin: 0 auto;
 }
@@ -166,15 +171,34 @@ a:visited {
     height: 46px;
     line-height: 46px;
     float: left;
+    position: relative;
 }
 
 #pager .search-panel .form-shell .input-shell input {
-    width: 480px;
+    width: 470px;
     height: 23px;
     margin: 0 0 0 65px;
     border: 0;
     outline: 0;
     font: 16px arial;
+}
+
+#pager .search-panel .form-shell .input-shell .hotword .hot-num {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+    text-indent: 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/H4/69/JL/C-/zO/sug_icon.png) no-repeat;
+    line-height: 18px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 #pager .search-panel .form-shell .button-shell {
@@ -207,7 +231,7 @@ a:visited {
     top: 45px;
     background-color: #fff;
     border-top: 0;
-    display:none;
+    display: none;
 }
 
 #pager .search-panel .form-shell .menu-tab a {
@@ -217,9 +241,65 @@ a:visited {
     height: 24px;
 }
 
-#pager .search-panel .form-shell .menu-tab a:hover{
-    background:#f1f1f1;
-    color:#999;
+#pager .search-panel .form-shell .menu-tab a:hover {
+    background: #f1f1f1;
+    color: #999;
+}
+
+#pager .search-panel .notice {
+    float: left;
+    width: 120px;
+    margin-left: 50px;
+    padding-top: 25px;
+    height: 60px;
+}
+
+#pager .search-panel .notice span {
+    display: block;
+    float: left;
+    width: 11px;
+    height: 16px;
+    line-height: 14px;
+    margin-top: 2px;
+    color: #fff;
+    font-weight: bold;
+    background: url('https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v4/Z8/OG/D1/3Q/dD/index_icon.png') no-repeat -34px -1327px;
+}
+
+#pager .search-panel .notice ul li {
+    font-size: 12px;
+    color: #666;
+}
+
+#pager .hot-search {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#pager .hot-search .boxhot {
+    margin-left: 140px;
+}
+
+#pager .hot-search .boxhot .title {
+    float: left;
+    margin-right: 6px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+
+#pager .hot-search .boxhot .title .hotsearch-link {
+    padding-left: 15px;
+    padding-bottom: 1px;
+    height: 20px;
+    background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/0W/zO/-A/q4/0Z/4/index_widthlg.png) -159px -260px no-repeat;
+}
+
+#pager .hot-search .boxhot .text {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
 }
 
 @font-face {
