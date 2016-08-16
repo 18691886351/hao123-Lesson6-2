@@ -231,6 +231,7 @@ a:visited {
     top: 45px;
     background-color: #fff;
     border-top: 0;
+    z-index: 1;
     display: none;
 }
 
@@ -302,6 +303,44 @@ a:visited {
     font-size: 12px;
 }
 
+#pager .hao123-body {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+#pager .hao123-body .menus {
+    border-top: 2px solid #0aa770;
+}
+
+#pager .hao123-body .menus ul .menu.first {
+    width: 80px;
+}
+
+#pager .hao123-body .menus ul .menu {
+    display: block;
+    float: left;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    font-family: Microsoft Yahei;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 111px;
+    position: relative;
+}
+
+#pager .hao123-body .menus ul .menu .menu-split {
+    display: block;
+    position:absolute;
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/dU/1s/Aa/af/gO/3/menus_split.png) center left no-repeat;
+}
+
 @font-face {
     font-family: 'iconfont';
     src: url('../font/iconfont.eot');
@@ -320,4 +359,13 @@ a:visited {
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.cf:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
