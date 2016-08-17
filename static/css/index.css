@@ -314,13 +314,17 @@ a:visited {
 
 #pager .hao123-body .menus ul .menu.first {
     width: 80px;
+    background: #0aa770;
+}
+
+#pager .hao123-body .menus ul .menu.first a .title {
+    color: white;
 }
 
 #pager .hao123-body .menus ul .menu {
     display: block;
     float: left;
     cursor: pointer;
-    color: #333;
     font-size: 16px;
     font-family: Microsoft Yahei;
     text-align: center;
@@ -330,9 +334,13 @@ a:visited {
     position: relative;
 }
 
+#pager .hao123-body .menus ul .menu .title {
+    color: #333;
+}
+
 #pager .hao123-body .menus ul .menu .menu-split {
     display: block;
-    position:absolute;
+    position: absolute;
     width: 1px;
     height: 40px;
     position: absolute;
@@ -340,6 +348,56 @@ a:visited {
     right: 0;
     background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/dU/1s/Aa/af/gO/3/menus_split.png) center left no-repeat;
 }
+
+#pager .hao123-body .gov-site {
+    width: 1190px;
+    margin: 0 auto;
+    border: 1px solid #84d7ba;
+}
+
+#pager .hao123-body .gov-site .title {
+    display: block;
+    width: 80px;
+    color: #0aa770;
+    cursor: pointer;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+#pager .hao123-body .gov-site .title-line {
+    vertical-align: top;
+    height: 20px;
+    width: 1px;
+    background-color: #eaeaea;
+    position: relative;
+    top: 9px;
+    margin-right: 36px;
+    float: left;
+}
+
+#pager .hao123-body .gov-site .govsite-item {
+    float: left;
+    margin-right: 25px;
+}
+
+#pager .hao123-body .gov-site .govsite-item .govsite-link {
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+}
+
+#pager .content {
+    margin-top: 20px;
+}
+
+#pager .content .content-left {
+    float: left;
+}
+
+#pager .content .content-left .wslider {}
 
 @font-face {
     font-family: 'iconfont';
