@@ -548,19 +548,82 @@ a:visited {
     overflow: hidden;
 }
 
-#pager .content .content-left .aoyun .aoyun-2016-text .list a{
+#pager .content .content-left .aoyun .aoyun-2016-text .list a {
     margin-right: 7px;
     float: left;
     color: #333;
     font-size: 14px;
 }
 
-#pager .content .content-left .aoyun .aoyun-2016-text .list a:hover{
+#pager .content .content-left .aoyun .aoyun-2016-text .list a:hover {
     color: #f60;
     text-decoration: underline;
 }
 
+#pager .content .content-right {
+    float: right;
+    width: 900px;
+    border: 1px solid #cecece;
+}
 
+#pager .content .content-right .box-site .site-item-list .site-item {
+    display: block;
+    float: left;
+    width: 130px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    margin-right: 4px;
+    padding-left: 9px;
+    position: relative;
+    margin-top:5px;
+}
+
+#pager .content .content-right .box-site .site-item-list .site-item .site-item-logo {
+    float: left;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+#pager .content .content-right .box-site .site-item-list .site-item a {
+    float: left;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+#pager .content .content-right .box-site .site-item-list .site-item span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+
+#pager .content .content-right .box-site .site-item-list .site-item .bubbleicon {
+    background-image: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/TL/Gb/Os/Er/fJ/3/bubble.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 0px;
+    right:-4px;
+    font-size: 12px;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-top: 2px;
+    padding-right: 2px;
+    line-height: 13px;
+    _line-height: 14px;
+    vertical-align: top;
+    color: #ff3c00;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+}
 
 @font-face {
     font-family: 'iconfont';
