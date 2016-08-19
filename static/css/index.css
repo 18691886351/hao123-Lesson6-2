@@ -575,7 +575,7 @@ a:visited {
     margin-right: 4px;
     padding-left: 9px;
     position: relative;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 #pager .content .content-right .box-site .site-item-list .site-item .site-item-logo {
@@ -601,8 +601,6 @@ a:visited {
     line-height: 20px;
 }
 
-
-
 #pager .content .content-right .box-site .site-item-list .site-item .bubbleicon {
     background-image: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/TL/Gb/Os/Er/fJ/3/bubble.png);
     background-repeat: no-repeat;
@@ -610,7 +608,7 @@ a:visited {
     width: 34px;
     height: 28px;
     top: 0px;
-    right:-4px;
+    right: -4px;
     font-size: 12px;
     overflow: hidden;
     word-wrap: break-word;
@@ -622,7 +620,135 @@ a:visited {
     color: #ff3c00;
     text-decoration: none;
     cursor: pointer;
-    float:left;
+    float: left;
+}
+
+#pager .content .content-right .box-famoussite {
+    /* border-top: 1px solid #cecece; */
+}
+
+#pager .content .content-right .box-famoussite .site-item-list .site-item {
+    display: block;
+    float: left;
+    width: 130px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    margin-right: 4px;
+    padding-left: 9px;
+    position: relative;
+    margin-top: 5px;
+}
+
+#pager .content .content-right .box-famoussite .site-item-list .site-item a {
+    float: left;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+
+#pager .content .content-right .box-famoussite .site-item-list .site-item span {
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#pager .content .content-right .box-famoussite .site-item-list .site-item .bubbleicon {
+    background-image: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/TL/Gb/Os/Er/fJ/3/bubble.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 0px;
+    right: -4px;
+    font-size: 12px;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-top: 2px;
+    padding-right: 2px;
+    line-height: 13px;
+    _line-height: 14px;
+    vertical-align: top;
+    color: #ff3c00;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+}
+
+#pager .content .content-right .box-famoussite-resource {
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+#pager .content .content-right .box-famoussite-resource .list .li-first {
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+
+#pager .content .content-right .box-famoussite-resource .list .li-first a {
+    width: 150px;
+    height: 40px;
+}
+
+#pager .content .content-right .box-famoussite-resource .list .li-normal {
+    width: 94px;
+    margin-right: 50px;
+    display: block;
+    float: left;
+}
+
+#pager .content .content-right .box-famoussite-resource .list .li-normal i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+}
+
+#pager .content .content-right .box-famoussite-resource .list .li-normal span {
+    margin-top: 5px;
+    line-height: 30px;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #000;
+}
+
+#pager .skin .skin-header {
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: white;
+}
+
+#pager .skin .skin-header .operation {
+    float: right;
+}
+
+#pager .skin .skin-header .operation a {
+    float: left;
+    margin-right: 20px;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+#pager .skin .skin-header .operation a.save {
+    width: 100px;
+    background-color: rgb(52, 166, 55);
+    color: rgb(255, 255, 255);
+    background-image: url("https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/Z8/OG/D1/3Q/dD/index_icon.png");
+    text-indent: 20px;
+    background-position: -263px -88px;
+}
+
+#pager .skin .skin-header .operation a.reset {
+    color: rgb(52, 166, 55);
 }
 
 @font-face {
