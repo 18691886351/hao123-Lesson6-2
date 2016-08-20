@@ -22,6 +22,10 @@ a:visited {
     outline: 0;
 }
 
+#pager {
+    width: 100%;
+}
+
 #pager .header-shell {
     border-bottom: 1px solid #F4F4F4;
 }
@@ -162,6 +166,8 @@ a:visited {
     float: left;
     margin-left: 20px;
     position: relative;
+    background-color: white;
+    height:46px;
 }
 
 #pager .search-panel .form-shell .input-shell {
@@ -310,6 +316,7 @@ a:visited {
 
 #pager .hao123-body .menus {
     border-top: 2px solid #0aa770;
+    background-color:white;
 }
 
 #pager .hao123-body .menus ul .menu.first {
@@ -353,6 +360,7 @@ a:visited {
     width: 1190px;
     margin: 0 auto;
     border: 1px solid #84d7ba;
+    background-color:white;
 }
 
 #pager .hao123-body .gov-site .title {
@@ -395,6 +403,7 @@ a:visited {
 
 #pager .content .content-left {
     float: left;
+    background-color:white;
 }
 
 #pager .content .content-left .wslider {
@@ -564,6 +573,7 @@ a:visited {
     float: right;
     width: 900px;
     border: 1px solid #cecece;
+    background-color:white;
 }
 
 #pager .content .content-right .box-site .site-item-list .site-item {
@@ -716,10 +726,17 @@ a:visited {
     color: #000;
 }
 
+#pager .skin {
+    background-color: rgb(223, 225, 226);
+    transition: all .5s ease-in .1s;
+    height: 0;
+    overflow: hidden;
+}
+
 #pager .skin .skin-header {
     width: 1000px;
     margin: 0 auto;
-    height: 60px;
+    height: 30px;
     background-color: white;
 }
 
@@ -751,6 +768,32 @@ a:visited {
     color: rgb(52, 166, 55);
 }
 
+#pager .skin .skin-box {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#pager .skin .skin-box .screen .item {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#pager .skin .skin-box .screen .item span {
+    display: block;
+    text-align: center;
+}
+
+#pager .skin .skin-box .screen .item .tip {
+    width: 178px;
+    color: rgb(102, 102, 102);
+    height: 28px;
+    line-height: 28px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
 @font-face {
     font-family: 'iconfont';
     src: url('../font/iconfont.eot');
@@ -778,4 +821,23 @@ a:visited {
     height: 0;
     overflow: hidden;
     visibility: hidden;
+}
+
+@keyframes animations {
+    0% {
+        transform: translate(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(30px);
+        opacity: 1;
+    }
+    70% {
+        transform: translate(35px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(60px);
+        opacity: 0;
+    }
 }
